@@ -1,3 +1,4 @@
+from .env import key
 """
 Django settings for premiosplatziapp project.
 
@@ -20,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-tmu9(_7p@tno45j85#*7l&ybde++yp2a42j*k)%qy=^3yfpymk'
+SECRET_KEY = key
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
