@@ -1,4 +1,4 @@
-from decouple import *
+from decouple import config
 """
 Django settings for premiosplatziapp project.
 
